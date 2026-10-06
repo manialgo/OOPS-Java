@@ -1,5 +1,4 @@
 /*
-
 Problem 8: Vehicle Hierarchy
 Package Name: problems_w3_v2
 File Name: Car.java
@@ -14,7 +13,6 @@ Car should contain:
 	numberOfDoors
 Create a Car object and display all information.
 Focus: Basic inheritance
-
 */
 
 package problems_w3_v2;

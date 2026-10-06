@@ -1,4 +1,20 @@
-// PROBLEM NUMBER 8
+/*
+
+Problem 8: Vehicle Hierarchy
+File Name: Car.java
+To Create:
+Vehicle (main class)
+   ↓
+  Car   (sub class)
+Vehicle should contain:
+	brand
+	speed
+Car should contain:
+	numberOfDoors
+Create a Car object and display all information.
+Focus: Basic inheritance
+
+*/
 
 package problems_w3_v2;
 
@@ -18,7 +34,6 @@ class Vehicle {
     public double getSpeed() {
     	return speed;
     }
-    
 }
 
 public class Car extends Vehicle{

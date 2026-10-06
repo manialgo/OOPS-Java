@@ -1,4 +1,24 @@
-// PROBLEM NUMBER 9
+/*
+Problem 9: Shape Calculator
+File Name: ShapeCalc.java
+Package Name: problems_w3_v2
+Create a base class:
+	Shape
+and a child class:
+	Circle
+The circle should calculate its area using Java's Math.PI.
+Create a circle object and display its area.
+Follow-up :
+Add another child class:
+	Rectangle
+Use the same Shape parent class.
+Calculate the area of both shapes.
+
+Concepts:
+	Inheritance
+	Java API
+	Math.PI
+*/
 
 package problems_w3_v2;
 
@@ -38,8 +58,7 @@ class Circle extends Shape{
 	}
 }
 
-public class ShapeCalc {
-	
+public class ShapeCalculator {
 	public static void main(String[] args) {
 		Rectangle rectangle = new Rectangle(12, 45);
 		System.out.println("Area of Rectangle: " + rectangle.getArea());
@@ -47,5 +66,4 @@ public class ShapeCalc {
 		Circle circle = new Circle(12);
 		System.out.println("Area of Circle: " + circle.getArea());
 	}
-	
 }

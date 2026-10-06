@@ -1,10 +1,25 @@
-// PROBLEM NUMBER 10
+/*
+Problem 10: Animal Sounds
+File Name: AnimalSound.java
+Package Name: problems_w3_v2
+Create:
+	Animal
+with a method:
+	sound()
+Create:
+	Dog
+	Cat
+	Cow
+Each class should override sound().
+Create objects and call sound().
+Focus: Method overriding / runtime polymorphism
+*/
 
 package problems_w3_v2;
 
 class Animal {
 	public String sound() {
-		return "burbur";
+		return "General Animal Sound";
 	}
 }
 
@@ -37,6 +52,7 @@ public class AnimalSound {
 		
 		// this is runtime polymorphism 
 		// usual Dog dog = new Dog(); it refers to the subclass object
+		// System.out.println("Dog Sounds: " + dog.sound());
 		
 		System.out.println("Dog Sounds: " + dog.sound());
 		System.out.println("Cat Sounds: " + cat.sound());

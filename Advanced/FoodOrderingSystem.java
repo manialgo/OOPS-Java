@@ -1,5 +1,7 @@
 /*
 Problem 21: Food Ordering System
+Package Name: programs_w3_v2
+File Name: FoodOrderingSystem.java
 Create an enum:
   Food
 containing:
